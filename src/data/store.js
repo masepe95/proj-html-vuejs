@@ -1,7 +1,7 @@
 import { reactive } from "vue";
 
 export const store = reactive({
-  logo: "../img/header/MasterStudy_logo.svg",
+  logo: "../assets/img/header/MasterStudy_logo.svg",
   languageSelect: [
     { language: "English", link: "#" },
     { language: "Deutsch", link: "#" },
@@ -80,7 +80,7 @@ export const store = reactive({
         categoryName: "software development",
         courses: {
           numberCourses: 5,
-          src: "../img/main/preview/cat_1-770x375.jpg",
+          src: "../assets/img/main/preview/cat_1-770x375.jpg",
         },
       },
       {
@@ -89,7 +89,7 @@ export const store = reactive({
         courses: {
           numberCourses: 8,
           link: "#",
-          src: "../img/main/preview/cat_2-370x155.jpg",
+          src: "../assets/img/main/preview/cat_2-370x155.jpg",
         },
       },
       {
@@ -98,7 +98,7 @@ export const store = reactive({
         courses: {
           numberCourses: 5,
           link: "#",
-          src: "../img/main/preview/cat_3-370x155.jpg",
+          src: "../assets/img/main/preview/cat_3-370x155.jpg",
         },
       },
       {
@@ -107,7 +107,7 @@ export const store = reactive({
         courses: {
           numberCourses: 4,
           link: "#",
-          src: "../img/main/preview/cat_6-370x155.jpg",
+          src: "../assets/img/main/preview/cat_6-370x155.jpg",
         },
       },
       {
@@ -116,7 +116,7 @@ export const store = reactive({
         courses: {
           numberCourses: 5,
           link: "#",
-          src: "../img/main/preview/cat_5-370x155.jpg",
+          src: "../assets/img/main/preview/cat_5-370x155.jpg",
         },
       },
       {
@@ -125,7 +125,7 @@ export const store = reactive({
         courses: {
           numberCourses: 7,
           link: "#",
-          src: "../img/main/preview/cat_4-370x155.jpg",
+          src: "../assets/img/main/preview/cat_4-370x155.jpg",
         },
       },
     ],
@@ -164,27 +164,27 @@ export const store = reactive({
   ],
   imgBox: [
     {
-      src: "../img/header/jumbotron/base.png",
+      src: "../assets/img/header/jumbotron/base.png",
       name: "base",
     },
     {
-      src: "../img/header/jumbotron/book1.png",
+      src: "../assets/img/header/jumbotron/book1.png",
       name: "book1",
     },
     {
-      src: "../img/header/jumbotron/book2.png",
+      src: "../assets/img/header/jumbotron/book2.png",
       name: "book2",
     },
     {
-      src: "../img/header/jumbotron/bubblespeech.png",
+      src: "../assets/img/header/jumbotron/bubblespeech.png",
       name: "bubblespeech",
     },
     {
-      src: "../img/header/jumbotron/magnifier.png",
+      src: "../assets/img/header/jumbotron/magnifier.png",
       name: "magnifier",
     },
     {
-      src: "../img/header/jumbotron/moon.png",
+      src: "../assets/img/header/jumbotron/moon.png",
       name: "moon",
     },
   ],
@@ -213,7 +213,7 @@ export const store = reactive({
       title: "Limitless learning, more possibilities",
       description:
         "Online courses open the opportunity for learning to almost anyone, regardless of their scheduling commitments.",
-      src: "../img/main/banner/Untitled-1-1-1-1-1.png",
+      src: "../assets/img/main/banner/Untitled-1-1-1-1-1.png",
       link: "#",
     },
   ],
@@ -372,13 +372,13 @@ export const store = reactive({
       articles: {
         art1: {
           title: "Our main target is to “Developing Yourself as a Leader”",
-          img: "../img/footer/photo-1517520287167-4bbf64a00d66-75x75.jpeg",
+          img: "../assets/img/footer/photo-1517520287167-4bbf64a00d66-75x75.jpeg",
           link: "#",
           date: " August 9, 2018",
         },
         art2: {
           title: "Those Other College Expenses You Aren`t Thinking About",
-          img: "../img/footer/photo-1490376840453-5f616fbebe5b-75x75.jpeg",
+          img: "../assets/img/footer/photo-1490376840453-5f616fbebe5b-75x75.jpeg",
           link: "#",
           date: " June 3, 2015",
         },
