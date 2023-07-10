@@ -27,7 +27,7 @@ export default {
                 <!-- Category + Search -->
                 <div class="cat-search">
                     <div class="category">
-                        <i class="fa-solid fa-grip-lines"></i><span>Category</span>
+                        <i class="fa-solid fa-bars pt-1"></i><span>Category</span>
                     </div>
                     <div class="input">
                         <input type="text" />
@@ -39,15 +39,15 @@ export default {
                 <!-- Icons + Text -->
                 <div class="icons-text">
                     <div v-for="(element, index) in iconText" :key="index">
-                        <i class="fa-solid" :class="element.icon"></i><span>{{ element.text }}</span>
+                        <i class="fa-solid pt-1" :class="element.icon"></i><span>{{ element.text }}</span>
                     </div>
                 </div>
                 <!-- Log In + Sign Up -->
                 <div class="login-signup">
                     <div class="login">
-                        <i class="fa-solid fa-user"></i><span>Log In</span>
+                        <i class="fa-solid fa-user pt-1"></i><span>Log In</span>
                     </div>
-                    <div class="btn">Sign Up</div>
+                    <button type="button" class="btn btn-primary p-3">Sign Up</button>
                     <div class="bookmark">
                         <i class="fa-solid fa-bookmark"></i>
                     </div>

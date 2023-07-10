@@ -60,7 +60,7 @@ export default {
                     <!-- Link -->
                     <div>
                         <ul>
-                            <li v-for="(link, index) in topHeaderLinks" :key="index">
+                            <li v-for="(link, index) in topHeaderLinks" :key="index" class="mt-3">
                                 <a :href="link.url">{{ link.name }}</a>
                                 <div v-if="index === 2 || index === 4">New</div>
                             </li>
