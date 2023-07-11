@@ -183,6 +183,7 @@ h1 {
   color: $denim;
   margin: 3rem;
   flex-wrap: wrap;
+  cursor: pointer;
 
   .active {
     padding: 0.7rem 1rem;

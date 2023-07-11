@@ -73,6 +73,7 @@ export default {
             display: flex;
             gap: 0.3rem;
             text-transform: uppercase;
+            cursor: pointer;
         }
 
         .input {
@@ -89,6 +90,7 @@ export default {
             div {
                 padding: 0.9rem 1.3rem;
                 background-color: $denim;
+                cursor: pointer;
                 @include flex(row, center, center);
 
                 i {
@@ -105,6 +107,7 @@ export default {
         div {
             display: flex;
             gap: 0.5rem;
+            cursor: pointer;
 
             i {
                 color: $denim;
@@ -121,6 +124,7 @@ export default {
             color: $denim;
             display: flex;
             gap: 0.5rem;
+            cursor: pointer;
         }
     }
 }
