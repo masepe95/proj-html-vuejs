@@ -53,7 +53,12 @@ export default {
             <div class="top-header">
                 <!-- Left -->
                 <div>
-                    <span class="lang">English</span><i class="fa-solid fa-chevron-down"></i>
+                    <select class="form-select form-select-sm" aria-label=".form-select-sm example">
+                        <option selected>English</option>
+                        <option value="1">Italian</option>
+                        <option value="2">Deutch</option>
+                        <option value="3">Francais</option>
+                    </select>
                 </div>
                 <!-- Right -->
                 <div class="right">

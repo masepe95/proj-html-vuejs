@@ -129,6 +129,7 @@ footer {
 
                 li {
                     margin-bottom: 0.7rem;
+                    cursor: pointer;
                 }
             }
 
