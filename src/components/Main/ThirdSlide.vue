@@ -23,11 +23,13 @@ export default {
           title: "Become an Instructor",
           para: "Teach what you love. Masterstudy gives you the tools to create a course.",
           btn: "Start Teaching",
+          img: "../../src/assets/img/image_box_1-221x231.png",
         },
         {
           title: "Setup for Business",
           para: "Get unlimited access to 2.500 of Udemy's top courses for your team.",
           btn: "Doing Business",
+          img: "../../src/assets/img/image_box_2-234x231.png"
         },
       ],
     };

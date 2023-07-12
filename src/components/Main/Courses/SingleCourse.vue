@@ -45,6 +45,11 @@ export default {
       return "★★★★★";
     },
   },
+  methods: {
+    consoleLog() {
+      this.consoleLog(course.img)
+    }
+  }
 };
 </script>
 

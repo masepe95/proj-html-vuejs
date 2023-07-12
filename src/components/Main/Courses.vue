@@ -56,7 +56,7 @@ export default {
           title: "Web Coding and Apache",
           hours: "6",
           free: true,
-          img: '../../assets/img/photo-1461749280684-dccba630e2f6-544x322.jpeg'
+          img: '../../src/assets/img/photo-1461749280684-dccba630e2f6-544x322.jpeg'
         },
         {
 
@@ -65,6 +65,7 @@ export default {
           hours: "6",
           price_discount: "60",
           price_final: "45",
+          img: "../../src/assets/img/cat_2-740x310.jpg"
         },
         {
 
@@ -72,6 +73,7 @@ export default {
           title: "Basics of Masterstudy",
           stars: 5,
           free: true,
+          img: "../../src/assets/img/course-preview-544x322.jpg"
         },
         {
 
@@ -80,12 +82,14 @@ export default {
           stars: 5,
           price_discount: "59",
           price_final: "49",
+          img: "../../src/assets/img/photo-1496307042754-b4aa456c4a2d-544x322.jpeg"
         },
         {
 
           category: "Communication",
           title: "Design Instruments",
           hours: "6",
+          img: "../../src/assets/img/photo-1416339134316-0e91dc9ded92-scaled-544x322.jpeg"
         },
         {
 
@@ -93,6 +97,7 @@ export default {
           title: "Make your Concept Right",
           hours: "6",
           price_final: "70",
+          img: "../../src/assets/img/cathryn-lavery-67852-unsplash-544x322.jpg"
         },
         {
 
@@ -100,6 +105,7 @@ export default {
           title: "Road Bike Manual",
           hours: "6",
           price_final: "20",
+          img: "../../src/assets/img/photo-1475452779376-caebfb988090-544x322.jpeg"
         },
         {
 
@@ -107,6 +113,7 @@ export default {
           title: "How to Make Photos?",
           hours: "6",
           price_final: "60",
+          img: "../../src/assets/img/cristian-grecu-762012-unsplash-min-scaled-544x322.jpg"
         },
         {
 
@@ -114,6 +121,7 @@ export default {
           title: "Van Gogh's Starry Night",
           hours: "6",
           price_final: "79",
+          img: "../../src/assets/img/landscape-544x322.jpg"
         },
         {
 
@@ -121,6 +129,7 @@ export default {
           title: "Nvidia and UE4",
           stars: 5,
           free: true,
+          img: "../../src/assets/img/12345-1-544x322.png"
         },
         {
 
@@ -128,6 +137,7 @@ export default {
           title: "Legendary RED Camera",
           hours: 6,
           free: true,
+          img: "../../src/assets/img/jakob-owens-198234-unsplash-min-1-544x322.png"
         },
         {
 
@@ -135,6 +145,7 @@ export default {
           title: "MasterStudy Mobile",
           hours: 2,
           free: true,
+          img: "../../src/assets/img/promo_tf-544x322.jpg"
         },
       ],
     };
